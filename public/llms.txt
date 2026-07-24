@@ -1,0 +1,10 @@
+# Sinal — Insights do LinkedIn
+
+Painel local, 100% client-side (Vite + React 19), que le o export de "Analytics de conteudo"
+do LinkedIn (arquivo AggregateAnalytics_*.xlsx) direto no navegador via SheetJS e mostra
+impressoes, alcance, engajamento diario, crescimento de seguidores, posts em destaque e
+demografia da audiencia. Nenhum dado sai da maquina do usuario; nao ha backend.
+
+## Pages
+
+- /: dashboard unico — tela de upload quando vazio, insights apos carregar o arquivo.
