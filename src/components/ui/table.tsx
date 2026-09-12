@@ -85,7 +85,7 @@ export function Table<T extends Record<string, unknown>>({
       {totalPages > 1 && (
         <div className="mt-3 flex items-center justify-between text-sm">
           <span className="text-muted-foreground">
-            Page {page} of {totalPages}
+            Página {page} de {totalPages}
           </span>
           <div className="flex gap-2">
             <button
@@ -94,7 +94,7 @@ export function Table<T extends Record<string, unknown>>({
               disabled={page <= 1}
               onClick={() => setPage((p) => p - 1)}
             >
-              Prev
+              Anterior
             </button>
             <button
               type="button"
@@ -102,7 +102,7 @@ export function Table<T extends Record<string, unknown>>({
               disabled={page >= totalPages}
               onClick={() => setPage((p) => p + 1)}
             >
-              Next
+              Próxima
             </button>
           </div>
         </div>

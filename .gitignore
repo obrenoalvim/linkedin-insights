@@ -31,3 +31,7 @@ playwright-report
 *.njsproj
 *.sln
 *.sw?
+
+# Local drafts, not for the repo
+post-linkedin.md
+post-tabnews.md

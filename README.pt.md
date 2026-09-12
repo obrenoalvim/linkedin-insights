@@ -73,14 +73,14 @@ src/
 
 ## Scripts
 
-| Script              | Descrição                    |
-| ------------------- | ----------------------------- |
+| Script              | Descrição                            |
+| ------------------- | ------------------------------------ |
 | `npm run dev`       | Inicia o servidor de desenvolvimento |
-| `npm run build`     | Build de produção             |
-| `npm run preview`   | Pré-visualiza o build de produção |
-| `npm run lint`      | oxlint + checagem do Prettier |
-| `npm run format`    | Formata com Prettier          |
-| `npm run test:unit` | Vitest                        |
+| `npm run build`     | Build de produção                    |
+| `npm run preview`   | Pré-visualiza o build de produção    |
+| `npm run lint`      | oxlint + checagem do Prettier        |
+| `npm run format`    | Formata com Prettier                 |
+| `npm run test:unit` | Vitest                               |
 
 ## Notas de design
 
